@@ -2,9 +2,9 @@
 
 ### Optional Reading:
 
-*   Chapter 2.2\. Expressions and Values: Arithmetic in Python
-*   Chapter 2.3\. What Is a Type?
-*   Chapter 2.6\. How Python Tells You Something Went Wrong
+*   Chapter 2.2 Expressions and Values: Arithmetic in Python
+*   Chapter 2.3 What Is a Type?
+*   Chapter 2.6 How Python Tells You Something Went Wrong
 
 ### Arithmetic Operators
 
