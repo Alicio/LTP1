@@ -1,28 +1,22 @@
-[
+# Python as a Calculator
 
-<div style="float:right; position:relative; width:30%; border: 2px solid black; margin:5px;">![Practical Programming](https://imagery.pragprog.com/products/336/gwpy2_largecover.jpg?1361381128)
+### Optional Reading:
 
 *   Chapter 2.2\. Expressions and Values: Arithmetic in Python
 *   Chapter 2.3\. What Is a Type?
 *   Chapter 2.6\. How Python Tells You Something Went Wrong
-*   <span style="position:absolute; bottom:0; right:0;">_Optional reading_</span>
-
-</div>
-
-](https://www.coursera.org/learn/learn-to-program/resources/oTgXi)
-
-# Python as a Calculator
 
 ### Arithmetic Operators
 
 | Operator | Operation | Expression | English description | Result |
-| + | addition | 11 + 56 | 11 plus 56 | 67 |
-| - | subtraction | 23 - 52 | 23 minus 52 | -29 |
-| * | multiplication | 4 * 5 | 4 multiplied by 5 | 20 |
-| ** | exponentiation | 2 ** 5 | 2 to the power of 5 | 32 |
-| / | division | 9 / 2 | 9 divided by 2 | 4.5 |
-| // | integer division | 9 // 2 | 9 divided by 2 | 4 |
-| % | modulo (remainder) | 9 % 2 | 9 mod 2 | 1 |
+| -------- | --------- | -------- | --------- | -------- | --------- |
+| `+` | addition | `11 + 56` | 11 plus 56 | 67 |
+| `-` | subtraction | `23 - 52` | 23 minus 52 | -29 |
+| `*` | multiplication | `4 * 5` | 4 multiplied by 5 | 20 |
+| `**` | exponentiation | `2 ** 5` | 2 to the power of 5 | 32 |
+| `/` | division | `9 / 2` | 9 divided by 2 | 4.5 |
+| `//` | integer division | `9 // 2` | 9 divided by 2 | 4 |
+| `%` | modulo (remainder) | `9 % 2` | 9 mod 2 | 1 |
 
 ### Types `int` and `float`
 
@@ -41,6 +35,7 @@ Two of Python's numeric types:
 When multiple operators are combined in a single expression, the operations are evaluated in order of precedence.
 
 | Operator | Precedence |
+| -------- | --------- | 
 | ** | highest |
 | - (negation) |
 | *, /, //, % |
