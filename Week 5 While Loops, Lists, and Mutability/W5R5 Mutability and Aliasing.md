@@ -42,6 +42,19 @@ Consider the following code:
 
 After the second statement executes, `lst1` and `lst2` both refer to the same list. When two variables refer to the same objects, they are _aliases_. If that list is modified, both of `lst1` and `lst2` will see the change.
 
+### Personal note
+
+Note that in the following case:
+
+<pre>>>> lst1 = [11, 12, 13, 14, 15, 16, 17]
+>>> lst2 = [11, 12, 13, 14, 15, 16, 17]
+>>> lst1[-1] = 18
+>>> lst2
+[11, 12, 13, 14, 15, 16, 17]
+</pre>
+
+`lst1` and `lst2` do not refer to the same list.
+
 * * *
 
 <center>Jennifer Campbell • Paul Gries
