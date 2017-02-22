@@ -15,125 +15,14 @@
 
 ### Arithmetic Operators
 
-<table border="1">
-
-<tbody>
-
-<tr>
-
-<td>Operator</td>
-
-<td>Operation</td>
-
-<td>Expression</td>
-
-<td>English description</td>
-
-<td>Result</td>
-
-</tr>
-
-<tr>
-
-<td>`+`</td>
-
-<td>addition</td>
-
-<td>`11 + 56`</td>
-
-<td>11 plus 56</td>
-
-<td>67</td>
-
-</tr>
-
-<tr>
-
-<td>`-`</td>
-
-<td>subtraction</td>
-
-<td>`23 - 52`</td>
-
-<td>23 minus 52</td>
-
-<td>-29</td>
-
-</tr>
-
-<tr>
-
-<td>`*`</td>
-
-<td>multiplication</td>
-
-<td>`4 * 5`</td>
-
-<td>4 multiplied by 5</td>
-
-<td>20</td>
-
-</tr>
-
-<tr>
-
-<td>`**`</td>
-
-<td>exponentiation</td>
-
-<td>`2 ** 5`</td>
-
-<td>2 to the power of 5</td>
-
-<td>32</td>
-
-</tr>
-
-<tr>
-
-<td>`/`</td>
-
-<td>division</td>
-
-<td>`9 / 2`</td>
-
-<td>9 divided by 2</td>
-
-<td>4.5</td>
-
-</tr>
-
-<tr>
-
-<td>`//`</td>
-
-<td>integer division</td>
-
-<td>`9 // 2`</td>
-
-<td>9 divided by 2</td>
-
-<td>4</td>
-
-</tr>
-
-<tr>
-
-<td>`%`</td>
-
-<td>modulo (remainder)</td>
-
-<td>`9 % 2`</td>
-
-<td>9 mod 2</td>
-
-<td>1</td>
-
-</tr>
-
-</tbody>
-
-</table>
+| Operator | Operation | Expression | English description | Result |
+| + | addition | 11 + 56 | 11 plus 56 | 67 |
+| - | subtraction | 23 - 52 | 23 minus 52 | -29 |
+| * | multiplication | 4 * 5 | 4 multiplied by 5 | 20 |
+| ** | exponentiation | 2 ** 5 | 2 to the power of 5 | 32 |
+| / | division | 9 / 2 | 9 divided by 2 | 4.5 |
+| // | integer division | 9 // 2 | 9 divided by 2 | 4 |
+| % | modulo (remainder) | 9 % 2 | 9 mod 2 | 1 |
 
 ### Types `int` and `float`
 
@@ -141,59 +30,21 @@ A _type_ is a set of values and operations that can be performed on those values
 
 Two of Python's numeric types:
 
-*   `int`: integer  
+*   `int`: integer
     For example: `3`, `4`, `894`, `0`, `-3`, `-18`
 
-*   `float`: floating point number (an approximation to a real number)  
+*   `float`: floating point number (an approximation to a real number)
     For example: `5.6`, `7.342`, `53452.0`, `0.0`, `-89.34`, `-9.5`
 
 ### Arithmetic Operator Precedence
 
 When multiple operators are combined in a single expression, the operations are evaluated in order of precedence.
 
-<table border="1">
-
-<tbody>
-
-<tr>
-
-<td>Operator</td>
-
-<td>Precedence</td>
-
-</tr>
-
-<tr>
-
-<td>**</td>
-
-<td>highest</td>
-
-</tr>
-
-<tr>
-
-<td>- (negation)</td>
-
-</tr>
-
-<tr>
-
-<td>*, /, //, %</td>
-
-</tr>
-
-<tr>
-
-<td>+ (addition), - (subtraction)</td>
-
-<td>lowest</td>
-
-</tr>
-
-</tbody>
-
-</table>
+| Operator | Precedence |
+| ** | highest |
+| - (negation) |
+| *, /, //, % |
+| + (addition), - (subtraction) | lowest |
 
 ### Syntax and Semantics
 
@@ -220,7 +71,7 @@ ZeroDivisionError: float division by zero
 
 * * *
 
-<center>Jennifer Campbell • Paul Gries  
+<center>Jennifer Campbell • Paul Gries
 University of Toronto</center>
 
 * * *
