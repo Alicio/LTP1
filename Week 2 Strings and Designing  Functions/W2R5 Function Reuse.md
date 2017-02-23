@@ -1,0 +1,54 @@
+# Function Reuse
+
+### Optional Reading:
+
+*   Chaper 3.1 Functions That Python Provides
+
+### Calling functions within other function definitions
+
+**The problem:** Calculate the semi-perimeter of a triangle.
+
+**The approach:** Function `semiperimeter` calls function `perimeter`.
+
+<pre>def perimeter(side1, side2, side3):
+    '''(number, number, number) -> number
+
+    Return the perimeter of a triangle with sides of length
+    side1, side2 and side3.
+
+    >>> perimeter(3, 4, 5)
+    12
+    >>> perimeter(10.5, 6, 9.3)
+    25.8
+    '''
+    return side1 + side2 + side3
+
+def semiperimeter(side1, side2, side3):
+    '''(number, number, number) -> float
+
+    Return the perimeter of a triangle with sides of
+    length side1, side2 and side3.
+
+    >>> semiperimeter(3, 4, 5)
+    6.0
+    >>> semiperimeter(10.5, 6, 9.3)
+    12.9
+    '''    
+    **return perimeter(side1, side2, side3) / 2**
+</pre>
+
+### Calling functions within other function calls
+
+**The problem:** One triangle has a base of length 3.8 and a height of length 7.0\. A second triangle has a base of length 3.5 and a height of length 6.8\. Calculate which of two triangles' areas is biggest.
+
+**The approach:** Pass calls to function `area` as arguments to built-in function `max`.
+
+<pre>max(area(3.8, 7.0), area(3.5, 6.8))
+</pre>
+
+* * *
+
+<center>Jennifer Campbell • Paul Gries</center>
+<center>University of Toronto</center>
+
+* * *
