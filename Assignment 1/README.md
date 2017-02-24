@@ -151,7 +151,7 @@ The number 10 divides in to 23 twice and leaves us with 3. We have achieved our 
 | get_minutes:(int) -> int | The parameter is a number of seconds since midnight. Return the number of minutes that have elapsed since midnight as seen on a clock. (This means that the return value should be in the range 0 to 59, inclusive.) |
 | get_seconds:(int) -> int | 	The parameter is a number of seconds since midnight. Return the number of seconds that have elapsed since midnight as seen on a clock. (This means that the return value should be in the range 0 to 59, inclusive.) |
 
-### Complete the bodies of functions time_to_utc and time_from_utc
+### Step 6: Complete the bodies of functions time_to_utc and time_from_utc
 
 Complete functions **time_to_utc** and **time_from_utc**. The header and docstrings are in the starter code. Use those examples to determine the appropriate formula. **We have intentionally left out tests involving time zones that are not on the hour: you need to figure out your own test cases for these.**
 
@@ -160,7 +160,7 @@ Complete functions **time_to_utc** and **time_from_utc**. The header and docstri
 | time_to_utc:(number, float) -> float | 	The first parameter is a UTC offset specifying a time zone and the second parameter is a time in that time zone. Return the equivalent UTC+0 time. Be sure to call **to_24_hour_clock** to convert the time to a time on a 24 hour clock before returning. |
 | time_from_utc:’(number, float) -> float | The first parameter is a UTC offset specifying a time zone and the second parameter is a time in time zone UTC+0. Return the equivalent time in the time zone specified by the UTC offset. Be sure to call **to_24_hour_clock** to convert the time to a time on a 24 hour clock before returning. |
 
-### Submit your work
+### Step 7: Submit your work
 
 Go to the Assignments page and click the appropriate Submit button. Choose your completed a1.py file. It should be marked within a few minutes. You can view your results by clicking on the View button in the Feedback column.
 
