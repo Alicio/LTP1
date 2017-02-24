@@ -32,7 +32,7 @@ Some of the functions you will write assume that parameter values are in a certa
 
 This assignment involves **float** calculations, and as you know, these can be inexact. As an example, here is code copied from the Python shell:
 
-<pre>   >>> 7 / 3000
+<pre>    >>> 7 / 3000
     0.0023333333333333335
     >>> 7 * (1 / 3000)
     0.002333333333333333
